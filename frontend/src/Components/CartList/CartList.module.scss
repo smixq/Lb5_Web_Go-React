@@ -1,0 +1,42 @@
+.cartListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: auto;
+}
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.removeBtn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ff4d4d;
+    font-size: 16px;
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
+
+.clearCartBtn {
+    background: #ff4d4d;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: 0.2s;
+
+    &:hover {
+        background: #ff6666;
+    }
+}

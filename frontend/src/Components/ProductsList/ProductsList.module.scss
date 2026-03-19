@@ -1,0 +1,11 @@
+.productsGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.emptyMessage {
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.6;
+}
